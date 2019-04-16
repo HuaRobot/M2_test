@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.6.9",
-        "mbit2_IR":  "github:lzty634158/yahboom_mbit_IR"
+        "mbit_IR":  "github:lzty634158/yahboom_mbit_IR"
 	
 
     },
