@@ -1,12 +1,12 @@
 /*
 load dependency
-"mbit2_": "file:../pxt-mbit2_"
+"mbit2": "file:../pxt-mbit2"
 */
 
 
 
 //% color="#C814B8" weight=25 icon="\uf1d4"
-namespace mbit2__显示类 {
+namespace mbit2_显示类 {
     
     export enum enColor {
 
@@ -159,7 +159,7 @@ namespace mbit2__显示类 {
  ****************************************************************************************************************************************/
 
 //% color="#87CEEB" weight=24 icon="\uf1b6"
-namespace mbit2__传感器类 {
+namespace mbit2_传感器类 {
 
     export enum enVoice {
         //% blockId="Voice" block="有声音"
@@ -257,7 +257,7 @@ namespace mbit2__传感器类 {
  ****************************************************************************************************************************************/
 
 //% color="#808080" weight=23 icon="\uf11c"
-namespace mbit2__输入类 {
+namespace mbit2_输入类 {
 
     export enum enRocker {
         //% blockId="Nostate" block="无"
@@ -370,7 +370,7 @@ namespace mbit2__输入类 {
  ****************************************************************************************************************************************/
 
 //% color="#D2691E" weight=22 icon="\uf001"
-namespace mbit2__音乐类 {
+namespace mbit2_音乐类 {
     export enum enBuzzer {
 
         //% blockId="NoBeep" block="不响"
@@ -399,7 +399,7 @@ namespace mbit2__音乐类 {
  ****************************************************************************************************************************************/
 
 //% color="#0000CD" weight=21 icon="\uf185"
-namespace mbit2__电机类 {
+namespace mbit2_电机类 {
 
     //% blockId=M2_Fan block="Fan|pin %pin|speed %value"
     //% weight=100
@@ -428,7 +428,7 @@ namespace mbit2__电机类 {
 }
 
 //% color="#006400" weight=20 icon="\uf1b9"
-namespace mbit2__小车类 {
+namespace mbit2_小车类 {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
